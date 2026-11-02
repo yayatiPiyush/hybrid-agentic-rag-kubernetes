@@ -210,9 +210,3 @@ Note: Generated evaluation outputs and large index files are excluded by `.gitig
 - Review and expand relevance labels, create a held-out evaluation set, and run claim-level citation checks.
 - Align benchmark and application retrieval implementations.
 - Reduce inference latency and add reliable service diagnostics, testing, and deployment practices.
-
-## Attribution and license
-
-This project is an **extension and local-first adaptation** of [piter5285/hybrid-agentic-RAG-langchain](https://github.com/piter5285/hybrid-agentic-RAG-langchain), which provides the original LangChain/LangGraph hybrid-RAG framework, Confluence integration, and initial scripts. Modifications in this version include the local Ollama path, cross-encoder adaptation, weighted-retrieval experiments, Kubernetes evaluation dataset, answer-quality audit, and the added Streamlit interface for local execution. Refer to the Git history for an accurate breakdown of inherited versus modified code.
-
-The upstream repository is published with an **Apache-2.0 license**. Preserve its `LICENSE` and existing copyright/notice files, and follow applicable license attribution requirements. Do not remove original authorship or present upstream code as wholly original.
