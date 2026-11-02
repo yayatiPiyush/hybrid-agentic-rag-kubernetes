@@ -1,0 +1,492 @@
+[
+  {
+    "id": "k8s_001",
+    "category": "architecture",
+    "question": "What is the purpose of kube-proxy?",
+    "relevant_pages": [
+      "docs-concepts-architecture"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/architecture/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_002",
+    "category": "architecture",
+    "question": "Which components make up the Kubernetes control plane?",
+    "relevant_pages": [
+      "docs-concepts-architecture"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/architecture/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_003",
+    "category": "architecture",
+    "question": "What does kubelet do on a Kubernetes node?",
+    "relevant_pages": [
+      "docs-concepts-architecture"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/architecture/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_004",
+    "category": "workloads",
+    "question": "What is a Kubernetes Deployment used for?",
+    "relevant_pages": [
+      "docs-concepts-workloads-controllers-deployment"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_005",
+    "category": "workloads",
+    "question": "How does a StatefulSet maintain persistent identity for Pods?",
+    "relevant_pages": [
+      "docs-concepts-workloads-controllers-statefulset"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_006",
+    "category": "workloads",
+    "question": "When should I use a Deployment instead of a StatefulSet?",
+    "relevant_pages": [
+      "docs-concepts-workloads-controllers-deployment",
+      "docs-concepts-workloads-controllers-statefulset"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/",
+      "https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_007",
+    "category": "workloads",
+    "question": "What does a ReplicaSet do?",
+    "relevant_pages": [
+      "docs-concepts-workloads-controllers-replicaset"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_008",
+    "category": "workloads",
+    "question": "Why would I deploy a DaemonSet?",
+    "relevant_pages": [
+      "docs-concepts-workloads-controllers-daemonset"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_009",
+    "category": "workloads",
+    "question": "What is the difference between a Job and a CronJob?",
+    "relevant_pages": [
+      "docs-concepts-workloads-controllers-job",
+      "docs-concepts-workloads-controllers-cron-jobs"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/workloads/controllers/job/",
+      "https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_010",
+    "category": "workloads",
+    "question": "How do rolling updates work for Deployments?",
+    "relevant_pages": [
+      "docs-concepts-workloads-controllers-deployment"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_011",
+    "category": "autoscaling",
+    "question": "How does Horizontal Pod Autoscaling work?",
+    "relevant_pages": [
+      "docs-concepts-workloads-autoscaling-horizontal-pod-autoscale"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/workloads/autoscaling/horizontal-pod-autoscale/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_012",
+    "category": "autoscaling",
+    "question": "How is Vertical Pod Autoscaling different from Horizontal Pod Autoscaling?",
+    "relevant_pages": [
+      "docs-concepts-workloads-autoscaling-vertical-pod-autoscale",
+      "docs-concepts-workloads-autoscaling-horizontal-pod-autoscale"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/workloads/autoscaling/vertical-pod-autoscale/",
+      "https://kubernetes.io/docs/concepts/workloads/autoscaling/horizontal-pod-autoscale/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_013",
+    "category": "networking",
+    "question": "What is a Kubernetes Service and why is it needed?",
+    "relevant_pages": [
+      "docs-concepts-services-networking-service"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/services-networking/service/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_014",
+    "category": "networking",
+    "question": "How can a Service expose a group of Pods?",
+    "relevant_pages": [
+      "docs-concepts-services-networking-service"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/services-networking/service/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_015",
+    "category": "networking",
+    "question": "What is the difference between ClusterIP, NodePort and LoadBalancer Services?",
+    "relevant_pages": [
+      "docs-concepts-services-networking-service"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/services-networking/service/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_016",
+    "category": "networking",
+    "question": "How can Kubernetes NetworkPolicies restrict traffic between Pods?",
+    "relevant_pages": [
+      "docs-concepts-services-networking-network-policies"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/services-networking/network-policies/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_017",
+    "category": "networking",
+    "question": "How does DNS resolve Kubernetes Services?",
+    "relevant_pages": [
+      "docs-concepts-services-networking-dns-pod-service"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_018",
+    "category": "networking",
+    "question": "What does Ingress do in Kubernetes?",
+    "relevant_pages": [
+      "docs-concepts-services-networking-ingress"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/services-networking/ingress/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_019",
+    "category": "networking",
+    "question": "How do applications communicate using Kubernetes Services?",
+    "relevant_pages": [
+      "docs-tutorials-services-connect-applications-service"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/tutorials/services/connect-applications-service/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_020",
+    "category": "security",
+    "question": "What are the Kubernetes Pod Security Standards?",
+    "relevant_pages": [
+      "docs-concepts-security-pod-security-standards"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/security/pod-security-standards/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_021",
+    "category": "security",
+    "question": "What are recommended least-privilege practices for Kubernetes RBAC?",
+    "relevant_pages": [
+      "docs-concepts-security-rbac-good-practices"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/security/rbac-good-practices/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_022",
+    "category": "security",
+    "question": "What is a ServiceAccount used for in Kubernetes?",
+    "relevant_pages": [
+      "docs-concepts-security-service-accounts"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/security/service-accounts/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_023",
+    "category": "security",
+    "question": "How should I secure access to Kubernetes Secrets?",
+    "relevant_pages": [
+      "docs-concepts-configuration-secret"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/configuration/secret/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_024",
+    "category": "security",
+    "question": "What does the Kubernetes Security Checklist recommend?",
+    "relevant_pages": [
+      "docs-concepts-security-security-checklist"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/security/security-checklist/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_025",
+    "category": "configuration",
+    "question": "What is a ConfigMap used for?",
+    "relevant_pages": [
+      "docs-concepts-configuration-configmap"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/configuration/configmap/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_026",
+    "category": "configuration",
+    "question": "How are Secrets different from ConfigMaps?",
+    "relevant_pages": [
+      "docs-concepts-configuration-secret",
+      "docs-concepts-configuration-configmap"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/configuration/secret/",
+      "https://kubernetes.io/docs/concepts/configuration/configmap/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_027",
+    "category": "configuration",
+    "question": "How can I organize workloads using namespaces?",
+    "relevant_pages": [
+      "docs-concepts-overview-working-with-objects-namespaces"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_028",
+    "category": "storage",
+    "question": "What is the difference between a PersistentVolume and a PersistentVolumeClaim?",
+    "relevant_pages": [
+      "docs-concepts-storage-persistent-volumes"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/storage/persistent-volumes/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_029",
+    "category": "storage",
+    "question": "What is the purpose of a StorageClass?",
+    "relevant_pages": [
+      "docs-concepts-storage-storage-classes"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/storage/storage-classes/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_030",
+    "category": "storage",
+    "question": "How does a StatefulSet use persistent storage?",
+    "relevant_pages": [
+      "docs-concepts-workloads-controllers-statefulset"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_031",
+    "category": "operations",
+    "question": "What do I need to plan for a production-quality Kubernetes cluster?",
+    "relevant_pages": [
+      "docs-setup-production-environment"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/setup/production-environment/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_032",
+    "category": "operations",
+    "question": "How do I create a Kubernetes Deployment using kubectl?",
+    "relevant_pages": [
+      "docs-tutorials-kubernetes-basics-deploy-app-deploy-intro"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/tutorials/kubernetes-basics/deploy-app/deploy-intro/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_033",
+    "category": "operations",
+    "question": "How does a canary deployment reduce rollout risk?",
+    "relevant_pages": [
+      "docs-tutorials-stateless-application-canary-deployment"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/tutorials/stateless-application/canary-deployment/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_034",
+    "category": "operations",
+    "question": "How do I inspect rollout status and update Deployments?",
+    "relevant_pages": [
+      "docs-concepts-workloads-controllers-deployment"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_035",
+    "category": "operations",
+    "question": "How do I check whether my Service is reachable from inside a cluster?",
+    "relevant_pages": [
+      "docs-tasks-access-application-cluster-access-cluster-services"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/tasks/access-application-cluster/access-cluster-services/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_036",
+    "category": "troubleshooting",
+    "question": "How can I debug a Kubernetes Service that is not working?",
+    "relevant_pages": [
+      "docs-tasks-debug-debug-application-debug-service"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/tasks/debug/debug-application/debug-service/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_037",
+    "category": "troubleshooting",
+    "question": "How can I configure container readiness and liveness probes?",
+    "relevant_pages": [
+      "docs-tasks-configure-pod-container-configure-liveness-readiness-startup-probes"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_038",
+    "category": "troubleshooting",
+    "question": "How can I inspect cluster events to investigate an application problem?",
+    "relevant_pages": [
+      "docs-tasks-debug-debug-application-debug-running-pod"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/tasks/debug/debug-application/debug-running-pod/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_039",
+    "category": "troubleshooting",
+    "question": "How can I connect to a Kubernetes cluster using kubeconfig?",
+    "relevant_pages": [
+      "docs-concepts-configuration-organize-cluster-access-kubeconfig"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/concepts/configuration/organize-cluster-access-kubeconfig/"
+    ],
+    "label_status": "provisional_review_required"
+  },
+  {
+    "id": "k8s_040",
+    "category": "troubleshooting",
+    "question": "What does kubectl proxy do, and how is it different from kube-proxy?",
+    "relevant_pages": [
+      "docs-reference-kubectl-generated-kubectl-proxy",
+      "docs-concepts-architecture"
+    ],
+    "source_urls": [
+      "https://kubernetes.io/docs/reference/kubectl/generated/kubectl_proxy/",
+      "https://kubernetes.io/docs/concepts/architecture/"
+    ],
+    "label_status": "provisional_review_required"
+  }
+]

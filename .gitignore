@@ -1,0 +1,43 @@
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+.streamlit/secrets.toml
+
+# Python environments and IDE
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.vscode/
+.idea/
+
+# Local indexes and generated chunks
+indexes/
+chunks/
+*.pkl
+*.faiss
+*.index
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated evaluation outputs
+generation_eval_results.json
+answer_quality_results.json
+evaluation_results*.json
+step10_audit/
+citation_diagnostics.json
+eval_label_validation.json
+
+# Operating system and caches
+.DS_Store
+Thumbs.db
+.cache/
+.pytest_cache/
+*.log

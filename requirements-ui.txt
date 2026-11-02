@@ -1,0 +1,4 @@
+streamlit>=1.37,<2
+langchain-ollama
+langchain
+python-dotenv
