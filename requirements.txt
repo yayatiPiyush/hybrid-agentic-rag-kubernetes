@@ -1,0 +1,32 @@
+# LangChain ecosystem
+langchain>=0.3
+langchain-community>=0.3
+langchain-openai>=0.2
+langchain-anthropic>=0.3
+langchain-cohere>=0.3
+langgraph>=0.2
+
+# Vector store
+faiss-cpu>=1.8
+
+# Evaluation
+ragas>=0.2
+datasets>=2.0
+bert-score>=0.3
+rouge-score>=0.1
+
+# Monitoring
+langsmith>=0.1
+
+# MCP
+mcp[cli]>=1.0
+fastmcp>=0.4
+
+# UI
+streamlit>=1.40
+
+# Utilities
+python-dotenv>=1.0
+requests>=2.31
+beautifulsoup4>=4.12
+tqdm>=4.66
